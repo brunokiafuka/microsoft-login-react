@@ -24,9 +24,9 @@ class Microsoft {
 
     async login() {
         try {
-            await userAgentApplication.loginPopup(
+            await this.userAgentApplication.loginPopup(
                 {
-                    scopes: MicrosoftConfig.scopes,
+                    scopes: this.config.scopes,
                     prompt: "select_account"
                 });
 
@@ -40,7 +40,7 @@ class Microsoft {
 
     async getMicrosoftUserProfile() {
         try {
-            const accessToken = await userAgentApplication.acquireTokenSilent({
+            const accessToken = await this.userAgentApplication.acquireTokenSilent({
                 scopes: this.config.scopes,
             });
 
