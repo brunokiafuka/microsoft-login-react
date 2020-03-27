@@ -1,0 +1,24 @@
+{
+  "name": "microsft-login-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunokiafuka/microsoft-login-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunokiafuka/microsoft-login-react/issues"
+  },
+  "homepage": "https://github.com/brunokiafuka/microsoft-login-react#readme",
+  "dependencies": {
+    "@microsoft/microsoft-graph-client": "2.0.0",
+    "msal": "1.1.3"
+  }
+}
