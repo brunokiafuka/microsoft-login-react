@@ -70,4 +70,4 @@ class Microsoft {
 
 }
 
-export default new Microsoft()
+export default Microsoft()
